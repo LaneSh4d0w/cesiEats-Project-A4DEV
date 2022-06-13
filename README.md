@@ -1,3 +1,3 @@
-# VueJS-Project-A4DEV
+# cesiEats
 
 Projet A4Dev.
