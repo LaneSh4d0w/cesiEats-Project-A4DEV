@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/navBar/navBar';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 let theme = createTheme({
