@@ -3,7 +3,7 @@ import { Container } from '@mui/system';
 import Navbar from './components/navBar/navBar';
 import ListeResto from './components/listeResto/listeResto';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import FilterCard from './components/filterList/filterList';
+import FilterSidebar from './components/filterList/filterList';
 
 
 let theme = createTheme({
