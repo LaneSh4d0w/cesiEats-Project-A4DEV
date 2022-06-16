@@ -1,8 +1,10 @@
 import * as React from 'react';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
+import { Container } from '@mui/system';
 import Navbar from './components/navBar/navBar';
+import ListeResto from './components/listeResto/listeResto';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import FilterCard from './components/filterList/filterList';
+
 
 let theme = createTheme({
   palette: {
@@ -18,12 +20,9 @@ export default function App() {
       <ThemeProvider theme={theme}>
       <Navbar />
       </ThemeProvider>
-      <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Test. Bienvenue sur cesiEats
-        </Typography>
-      </Box>
+      <Container>
+        <ListeResto />
+      </Container>
     </div>
   );
 }
-
